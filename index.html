@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>National University</title>
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <link rel="icon" href="images/logo without caption_background transparent.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+  <!-- header-->
+  <header>
+    <div class="top-header">
+      <div class="container clear-fix">
+        <!--phone-->
+        <div class="resp_contact phone">
+          <p class="phone">Contact Us</p>
+        </div>
+        <!--computer-->
+        <div class="left comp">
+          <p class="phoneno comp">040-23346778</p>
+          <p class="location comp">Bangalore, KA</p>
+        </div>
+        <div class="right comp">
+          <input type="search" placeholder="How can we help you?" title="SEARCH">
+          <span title="SEARCH"><i class="fa fa-search"></i></span>
+        </div>
+      </div>
+    </div>
+  </header><!-- end of header-->
+  <!-- slideshow,navigation & comp logo -->
+  <div class="logoimgnav">
+    <!-- carousel -->
+    <div class="container clear-fix">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="images/carouselimage1.jpg" alt="image1" class="pics">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/carouselpic2.jpg" alt="image2" class="pics">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/carouselpic3.jpg" alt="image3" class="pics">
+        </div>
+
+      </div>
+      <br>
+
+      <div class="slideshowdots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div><!-- carousel end-->
+      <!-- navigation -->
+      <nav>
+        <ul>
+          <li><a href="#" title="HOME" class="comp">HOME</a></li>
+          <li class="dropdown">
+            <a href="#about" title="ABOUT THE UNIVERSITY" class="dropbtn">ABOUT</a>
+            <div class="dropdown-content comp">
+              <a href="#about" title="ABOUT THE UNIVERSITY">ABOUT  THE  UNIVERSITY</a>
+              <a href="#" title="LOCATION">LOCATION</a>
+              <a href="#" title="FACULTY">FACULTY</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#courses" title="COURSES" class="dropbtn">COURSES</a>
+            <div class="dropdown-content comp">
+              <a href="#cs">COMPUTER   SCIENCE & ENGINEERING</a>
+              <a href="#it">INFORMATION  TECHNOLOGY</a>
+              <a href="#is">INFORMATION  SCIENCE</a>
+              <a href="#">CRYPTOGRAPHY</a>
+              <a href="#">COMPUTER  NETWORKS</a>
+              <a href="#">MACHINE  LEARNING</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#events" title="EVENTS" class="dropbtn">EVENTS</a>
+            <div class="dropdown-content comp">
+              <a href="#events">SEMINAR ON ARTIFICIAL INTELLIGENCE</a>
+              <a href="#events">SEMINAR ON LINUX</a>
+              <a href="#events">ROBOTICS TECH FEST</a>
+              <a href="#events">SEMINAR ON CRYPTOGRAPHY</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#gallery" title="GALLERY" class="dropbtn">GALLERY</a>
+            <div class="dropdown-content comp">
+              <a href="#gallery">PHOTOS</a>
+              <a href="#gallery">VIDEOS</a>
+              <a href="#gallery">SYMPOSIUM</a>
+              <a href="#gallery">NATIONAL AWARDS</a>
+              <a href="#gallery">UNIVERSITY RANKS</a>
+            </div>
+          </li>
+          <li><a href="#contactus" title="CONTACT US" class="comp contactus-nav">CONTACT US</a></li>
+        </ul>
+      </nav><!--navigation end-->
+      <!-- logo for comp -->
+      <div class="divmainsitelogo">
+        <a href="#"><img src="images/main-site-header_03.png" alt="logo" title="National University Home" class="comp mainsitelogo"></a>
+      </div>
+    </div>
+  </div>
+  <!-- about section -->
+  <div class="aboutsection">
+    <div class="container clear-fix">
+      <div class="aboutleft">
+        <div class="h1andp">
+          <h1 id="about">ABOUT THE UNIVERSITY</h1>
+          <div class="underline"></div>
+        </div>
+        <p>National University is a Deemed University offering courses in Information Technolgy and Computer Science & Engineering.</p>
+        <a href="#"><button type="button" name="button" title="CLICK TO LEARN MORE ABOUT THE UNIVERSITY">Learn more..</button></a>
+      </div>
+      <div class="aboutright comp">
+        <img src="images/mainsite-middle-logo_07.png" alt="logo">
+      </div>
+    </div>
+  </div><!--about section end-->
+  <!-- courses section -->
+  <div class="courses">
+    <div class="container clear-fix">
+      <div class="courses-right">
+        <h1 id="courses">OUR FEATURED COURSES</h1>
+        <div class="courses-underline"></div>
+        <button title="Course Details of Computer Science & Engineering" id="cs">Computer Science & Engineering</button>
+        <button title="Course Details of Information Technology" id="it">Information Technology</button>
+        <button title="Course Details of Information Science" id="is">Information Science</button>
+        <button type="button" id="allCoursesBtn" class="view-courses" title="GET DETAILS OF ALL THE COURSES">View All Courses</button>
+        <!--VIEW ALL COURSES MODAL-->
+        <div class="courses-modal" id="coursesModalId">
+          <div class="courses-modal-content">
+            <div class="modal-header">
+              <span class="close" title="CLOSE">&times;</span>
+              <h2>ALL COURSES</h2>
+            </div>
+            <div class="modal-body">
+              <a href="#"><button title="Course Details of Computer Science & Engineering">Computer Science & Engineering</button></a>
+              <a href="#"><button title="Course Details of Information Technology">Information Technology</button></a>
+              <a href="#"><button title="Course Details of Information Science">Information Science</button></a>
+              <a href="#"><button title="Course Details of Cryptography">Cryptography</button></a>
+              <a href="#"><button title="Course Details of Computer Networks">Computer Networks</button></a>
+              <a href="#"><button title="Course Details of Machine Learning">Machine Learning</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--courses section end-->
+  <!-- statistics section -->
+  <div class="statistics">
+    <div class="container clear-fix">
+      <h1>STATISTICS</h1>
+      <div class="stcs-underline"></div>
+      <!-- phone -->
+      <div class="respstcsmain clear-fix phone">
+        <div class="respstcs1" title="Statistics of Graduates">
+          <div class="resp1">
+
+          </div>
+          <p class="rp1">98%</p>
+          <p class="rcap1">Graduates</p>
+        </div>
+        <div class="respstcs2" title="Statistics of Students">
+          <div class="resp2">
+
+          </div>
+          <p class="rp2">6510</p>
+          <p class="rcap2">Students</p>
+        </div>
+        <div class="respstcs3" title="Statistics of Teachers">
+          <div class="resp3">
+
+          </div>
+          <p class="rp3">30+</p>
+          <p class="rcap3">Teachers</p>
+        </div>
+        <div class="respstcs4" title="Tech Seminars Statistics">
+          <div class="resp4">
+
+          </div>
+          <p class="rp4">8</p>
+          <p class="rcap4">Tech Seminars</p>
+        </div>
+      </div>
+      <!-- computer -->
+      <div class="stcsmain comp">
+        <div class="stcs1" title="Statistics of Graduates">
+          <p class="stcscount">98%</p>
+          <p class="stcscaption">Graduates</p>
+        </div>
+        <div class="stcs2" title="Statistics of Students">
+          <p class="stcscount">6510</p>
+          <p class="stcscaption">Students</p>
+        </div>
+        <div class="stcs3" title="Statistics of Teachers">
+          <p class="stcscount">30+</p>
+          <p class="stcscaption">Teachers</p>
+        </div>
+        <div class="stcs4" title="Tech Seminars Statistics">
+          <p class="stcscount">8</p>
+          <p class="stcscaption">Tech Seminars</p>
+        </div>
+      </div>
+    </div>
+  </div><!--statistics end-->
+  <!-- mid image -->
+  <div class="middleimage">
+    <div class="container clear-fix">
+      <h1>Trusted by Over 6000+ Students</h1>
+      <button type="button" name="button" title="Click to view featured courses" id="middleimagebtn">Join a Course</button>
+    </div>
+  </div><!--mid image end-->
+  <!-- events section -->
+  <div class="events">
+    <div class="container clear-fix">
+      <h1 id="events">EVENTS</h1>
+      <div class="events-underline"></div>
+      <div class="events-images">
+        <div class="no1" title="SEMINAR ON ARTIFICIAL INTELLIGENCE" id="eventsId01">
+          <div class="no1imagediv">
+            <img src="images/event1_15.png" alt="AI" id="eventsId1">
+          </div>
+          <div class="eventdesc phone">
+            <p class="date">15 Jan</p>
+            <p class="eventopic">AI Seminar</p>
+          </div>
+          <div class="eventdesc comp">
+            <p class="date">15 Jan</p>
+            <p class="eventopic">Artificial Intelligence Seminar</p>
+          </div>
+        </div>
+        <div class="no2" title="SEMINAR ON CRYPTOGRAPHY" id="eventsId02">
+          <div class="no2imagediv">
+            <img src="images/event4_20.png" alt="CRYPTOGRAPHY" id="eventsId2">
+          </div>
+          <div class="eventdesc phone">
+            <p class="date">24 Feb</p>
+            <p class="eventopic">Cryptography</p>
+          </div>
+          <div class="eventdesc comp">
+            <p class="date">24 Feb</p>
+            <p class="eventopic">Seminar on Cryptography</p>
+          </div>
+        </div>
+        <div class="no3" title="ROBOTICS TECH FEST" id="eventsId03">
+          <div class="no3imagediv">
+            <img src="images/event3_18.png" alt="ROBOTICS" id="eventsId3">
+          </div>
+          <div class="eventdesc phone">
+            <p class="date">15 Feb</p>
+            <p class="eventopic">Robotics</p>
+          </div>
+          <div class="eventdesc comp">
+            <p class="date">15 Feb</p>
+            <p class="eventopic">Robotics Tech Fest</p>
+          </div>
+        </div>
+        <div class="no4" title="SEMINAR ON LINUX SYSTEMS" id="eventsId04">
+          <div class="no4imagediv">
+            <img src="images/event2_15.png" alt="LINUX SYSTEMS" id="eventsId4">
+          </div>
+          <div class="eventdesc phone">
+            <p class="date">30 Jan</p>
+            <p class="eventopic">Linux Seminar</p>
+          </div>
+          <div class="eventdesc comp">
+            <p class="date">30 Jan</p>
+            <p class="eventopic">Seminar on Linux Systems</p>
+          </div>
+        </div>
+      </div>
+      <div class="eventbutton comp">
+        <a href="#"><button type="button" class="comp" title="HAVE A LOOK AT ALL THE EVENTS">View All Events</button></a>
+      </div>
+
+      <!--EVENTS MODAL-->
+      <!--EVENTS MODAL 1-->
+      <div id="eventsMyModal1" class="events-modal1">
+        <div class="events-content">
+          <div class="events-header">
+            <h1>EVENTS</h1>
+            <span class="close1" title="CLOSE">&times;</span>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img class="modal-content1" id="img01">
+            </div>
+            <table>
+              <tr>
+                <td>EVENT NAME</td>
+                <td>ARTIFICIAL INTELLIGENCE</td>
+              </tr>
+              <tr>
+                <td>DATE</td>
+                <td>15 JANUARY</td>
+              </tr>
+              <tr>
+                <td>VENUE</td>
+                <td>'A' BLOCK</td>
+              </tr>
+            </table>
+            <button type="button" name="button" title="APPLY FOR THIS EVENT">APPLY</button>
+          </div>
+        </div>
+      </div>
+      <!--EVENTS MODAL 2-->
+      <div id="eventsMyModal2" class="events-modal2">
+        <div class="events-content">
+          <div class="events-header">
+            <h1>EVENTS</h1>
+            <span class="close2" title="CLOSE">&times;</span>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img class="modal-content2" id="img02">
+            </div>
+            <table>
+              <tr>
+                <td>EVENT NAME</td>
+                <td>CRYPTOGRAPHY</td>
+              </tr>
+              <tr>
+                <td>DATE</td>
+                <td>24 FEBRUARY</td>
+              </tr>
+              <tr>
+                <td>VENUE</td>
+                <td>'C' BLOCK</td>
+              </tr>
+            </table>
+            <button type="button" name="button" title="APPLY FOR THIS EVENT">APPLY</button>
+          </div>
+        </div>
+      </div>
+      <!--EVENTS MODAL 3-->
+      <div id="eventsMyModal3" class="events-modal3">
+        <div class="events-content">
+          <div class="events-header">
+            <h1>EVENTS</h1>
+            <span class="close3" title="CLOSE">&times;</span>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img class="modal-content3" id="img03">
+            </div>
+            <table>
+              <tr>
+                <td>EVENT NAME</td>
+                <td>ROBOTICS TECH FEST</td>
+              </tr>
+              <tr>
+                <td>DATE</td>
+                <td>15 FEBRUARY</td>
+              </tr>
+              <tr>
+                <td>VENUE</td>
+                <td>MAIN SEMINAR HALL</td>
+              </tr>
+            </table>
+            <button type="button" name="button" title="APPLY FOR THIS EVENT">APPLY</button>
+          </div>
+        </div>
+      </div>
+      <!--EVENTS MODAL 4-->
+      <div id="eventsMyModal4" class="events-modal4">
+        <div class="events-content">
+          <div class="events-header">
+            <h1>EVENTS</h1>
+            <span class="close4" title="CLOSE">&times;</span>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img class="modal-content4" id="img04">
+            </div>
+            <table>
+              <tr>
+                <td>EVENT NAME</td>
+                <td>LINUX APPLICATIONS</td>
+              </tr>
+              <tr>
+                <td>DATE</td>
+                <td>30 JANUARY</td>
+              </tr>
+              <tr>
+                <td>VENUE</td>
+                <td>'A' BLOCK</td>
+              </tr>
+            </table>
+            <button type="button" name="button" title="APPLY FOR THIS EVENT">APPLY</button>
+          </div>
+        </div>
+      </div><!--MODALS END-->
+    </div>
+  </div><!--END OF EVENTS SECTION-->
+  <!-- gallery -->
+  <div class="gallery comp">
+    <div class="container clear-fix" id="gallery">
+      <div class="gallery1" title="IT BLOCK">
+        <img src="images/gallery1_fnl_30.png" alt="gallery1" id="galleryPic1">
+      </div>
+      <div class="gallery2" title="MAIN BLOCK">
+        <img src="images/gallery2_31.png" alt="gallery2" id="galleryPic2">
+      </div>
+      <div class="gallery3" title="OUTDOOR BASKETBALL COURT">
+        <img src="images/gallery3_31.png" alt="gallery3" id="galleryPic3">
+      </div>
+      <div class="gallery4" title="COMPUTER LAB">
+        <img src="images/gallery4_31.png" alt="gallery4" id="galleryPic4">
+      </div>
+      <div class="gallery5" title="SEMINAR HALL">
+        <img src="images/gallery5_31.png" alt="gallery5" id="galleryPic5">
+      </div>
+      <div class="gallery6" title="INDOOR GAMES COURT">
+        <img src="images/gallery6_31.png" alt="gallery6" id="galleryPic6">
+      </div>
+      <!--GALLERY MODAL-->
+      <div id="galleryModal1" class="gallery-modal comp">
+        <span class="glry-close1" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg01">
+        <div class="caption">IT BLOCK 1</div>
+      </div>
+      <div id="galleryModal2" class="gallery-modal comp">
+        <span class="glry-close2" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg02">
+        <div class="caption">MAIN BLOCK</div>
+      </div>
+      <div id="galleryModal3" class="gallery-modal comp">
+        <span class="glry-close3" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg03">
+        <div class="caption">OUTDOOR BASKETBALL COURT</div>
+      </div>
+      <div id="galleryModal4" class="gallery-modal comp">
+        <span class="glry-close4" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg04">
+        <div class="caption">COMPUTER LAB</div>
+      </div>
+      <div id="galleryModal5" class="gallery-modal comp">
+        <span class="glry-close5" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg05">
+        <div class="caption">SEMINAR HALL</div>
+      </div>
+      <div id="galleryModal6" class="gallery-modal comp">
+        <span class="glry-close6" title="CLOSE">&times;</span>
+        <img class="gallery-content" id="galleryImg06">
+        <div class="caption">INDOOR GAMES COURT</div>
+      </div><!--GALLERY MODAL END-->
+    </div>
+  </div><!--gallery end-->
+  <!-- map -->
+  <div class="locationmap">
+    <div class="container clear-fix">
+      <div id="theMap" class="map"></div>
+    </div>
+  </div>
+  <!-- contact us section -->
+  <div class="contactus comp">
+    <div class="container clear-fix">
+      <div class="footerlogo">
+      </div>
+      <div class="contact-section">
+        <h1 id="contactus">Contact Us</h1>
+        <p class="contact-no">080-23346778</p>
+        <p class="contact-loc">Bangalore,Karnataka</p>
+        <a href="#"><p class="site" title="GO TO MAIN SITE">www.nationaluniversity.edu</p></a>
+        <div class="social1" title="FOLLOW US ON FB">
+
+        </div>
+        <div class="social2" title="FOLLOW US ON GOOGLE PLUS">
+
+        </div>
+        <div class="social3" title="FOLLOW US ON TWITTER">
+
+        </div>
+      </div>
+      <div class="newsltr">
+        <h1>Newsletter</h1>
+        <p>Get updated about latest events like upcoming seminars,conferences,updated syllabus and more.Simply enter your email id.</p>
+        <input type="text" name="emailid" placeholder="Enter your email id" title="Enter your email id">
+        <button type="button" name="button">Submit</button>
+      </div>
+    </div>
+  </div><!--contact section end-->
+  <!-- footer -->
+  <div class="footer">
+    <div class="container clear-fix">
+      <div class="footerdiv">
+        <p>&copy;   2014 National University All Rights Reserved</p>
+      </div>
+    </div>
+  </div><!--footer end-->
+  <script src="js/js1.js" charset="utf-8"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5H-AYPIHckm8uBVQRq-SbgyAeCHQla3U&callback=initMap">
+  </script>
+</body>
+</html>
