@@ -1196,6 +1196,7 @@ table,td{
     border: 2px solid grey;
     height: 34px;
     margin-top: 8px;
+    text-align: center;
   }
   .newsltr button{
     background: #c40d29;
